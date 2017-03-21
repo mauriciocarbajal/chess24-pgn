@@ -1,0 +1,16 @@
+{
+        "name": "Get PGN from chess24 without being a premium member",
+        "version": "1.0",
+        "manifest_version": 2,
+        "browser_action": {
+          "name": "Extract PGN from chess24.com game...",
+          "default_icon": "icon.png"
+        },
+        "background":{
+            "scripts":["background.js"]
+        },
+        "permissions":[
+          "https://www.chess24.com/*",
+          "https://chess24.com/*"
+        ] //Put All your URL here
+ }
